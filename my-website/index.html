@@ -1,10 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh">
 <head>
-    <title>My Personal Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历</title>
+    <!-- 引入外部样式表 -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to My Personal Page</h1>
-    <p>My name is Huhaowen .</p>
+    <header>
+        <h1>个人简历</h1>
+    </header>
+
+    <section>
+        <h2>个人基础信息</h2>
+        <table>
+            <tr>
+                <td>姓名：</td>
+                <td>胡皓文</td>
+            </tr>
+            <tr>
+                <td>性别：</td>
+                <td>男</td>
+            </tr>
+            <tr>
+                <td>年龄：</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>邮箱：</td>
+                <td>dreamer777@gmail.com</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>近期照片</h2>
+        <img src="生活照.jpg" alt="个人照片" width="200px">
+    </section>
+
+    <section>
+        <h2>学习经历</h2>
+        <ul>
+            <li>2022-2026：上海交通大学 信息安全 本科</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>兴趣爱好及特长</h2>
+        <ul>
+            <li>爱好：音乐、编程、运动</li>
+            <li>特长：Python、AI相关</li>
+        </ul>
+    </section>
+
+    <footer>
+        <button onclick="showMessage()">点击了解更多</button>
+    </footer>
+
+    <!-- 引入外部JavaScript文件 -->
+    <script src="script.js"></script>
 </body>
 </html>
